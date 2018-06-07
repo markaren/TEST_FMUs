@@ -1,0 +1,38 @@
+[INFO][FMUCHK] FMI compliance checker 2.0.3b2 [FMILibrary: 2.0.2b3] build date: Apr 28 2016
+[INFO][FMUCHK] Called with following options:
+[INFO][FMUCHK] fmuCheck.win64.exe -k me -e DFFREG_cc.log -o DFFREG_cc.csv -h 1e0 -s 25 DFFREG.fmu
+[INFO][FMUCHK] Will process FMU DFFREG.fmu
+[INFO][FMILIB] XML specifies FMI standard version 2.0
+[INFO][FMUCHK] Model name: DFFREG
+[INFO][FMUCHK] Model GUID: {9e997dca-f478-441f-a586-a12d92718023}
+[INFO][FMUCHK] Model version: 
+[INFO][FMUCHK] FMU kind: ModelExchange
+[INFO][FMUCHK] The FMU contains:
+16 constants
+37 parameters
+26 discrete variables
+0 continuous variables
+0 inputs
+2 outputs
+47 local variables
+0 independent variables
+0 calculated parameters
+22 real variables
+16 integer variables
+48 enumeration variables
+0 boolean variables
+0 string variables
+
+[INFO][FMUCHK] Printing output file header
+[INFO][FMUCHK] Model identifier for ModelExchange: DFFREG
+[INFO][FMILIB] Loading 'win64' binary with 'default' platform types
+[INFO][FMUCHK] Version returned from ME FMU: '2.0'
+
+[INFO][FMUCHK] Initialized FMU for simulation starting at time 0
+[INFO][FMUCHK] Simulation finished successfully at time 25
+FMU check summary:
+FMU reported:
+	0 warning(s) and error(s)
+Checker reported:
+	0 Warning(s)
+	0 Error(s)

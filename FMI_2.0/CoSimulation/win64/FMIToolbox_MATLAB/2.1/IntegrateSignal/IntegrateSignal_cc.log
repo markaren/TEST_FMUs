@@ -1,0 +1,41 @@
+[INFO][FMUCHK] FMI compliance checker 2.0.2b1 [FMILibrary: rev7051] build date: Dec 22 2014
+[INFO][FMUCHK] Called with following options:
+[INFO][FMUCHK] fmuCheck.win64.exe -e IntegrateSignal_cc.log -o IntegrateSignal_cc.csv -s 10.000000 -h 0.001000 -i IntegrateSignal_in.csv -c , IntegrateSignal.fmu
+[INFO][FMUCHK] Will process FMU IntegrateSignal.fmu
+[INFO][FMILIB] XML specifies FMI standard version 2.0
+[INFO][FMUCHK] Model name: IntegrateSignal
+[INFO][FMUCHK] Model GUID: 40d148332f02f2383b7ce8ff5b938fc9
+[INFO][FMUCHK] Model version: 1.2
+[INFO][FMUCHK] FMU kind: CoSimulation
+[INFO][FMUCHK] The FMU contains:
+0 constants
+1 parameters
+0 discrete variables
+2 continuous variables
+1 inputs
+1 outputs
+0 local variables
+0 independent variables
+0 calculated parameters
+3 real variables
+0 integer variables
+0 enumeration variables
+0 boolean variables
+0 string variables
+
+[INFO][FMUCHK] Printing output file header
+[INFO][FMUCHK] Opening input file IntegrateSignal_in.csv
+[INFO][FMUCHK] Detected separator character in input file: ,
+[INFO][FMUCHK] Model identifier for CoSimulation: IntegrateSignal
+[INFO][FMILIB] Loading 'win64' binary with 'default' platform types
+[INFO][FMUCHK] Version returned from CS FMU:   2.0
+[INFO][FMUCHK] Initialized FMU for simulation starting at time 0
+[WARNING][FMUCHK] FMU does not support variable communication stepsize. Stepsize may not be altered to reach stopTime exactly.
+[WARNING][FMUCHK] FMU does not support variable communication stepsize. Stepsize may not be altered to reach stopTime exactly.
+[INFO][FMUCHK] Simulation finished successfully at time 10.001
+FMU check summary:
+FMU reported:
+	0 warning(s) and error(s)
+Checker reported:
+	2 Warning(s)
+	0 Error(s)

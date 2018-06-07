@@ -1,0 +1,38 @@
+[INFO][FMUCHK] FMI compliance checker rev215 [FMILibrary: 2.0.2] build date: Sep 30 2016
+[INFO][FMUCHK] Called with following options:
+[INFO][FMUCHK] fmuCheck.win64.exe -e springmassdamper_cc.log -o springmassdamper_cc.csv -n 0 -h 0.01 -s 50 springmassdamper.fmu
+[INFO][FMUCHK] Will process FMU springmassdamper.fmu
+[INFO][FMILIB] XML specifies FMI standard version 2.0
+[INFO][FMUCHK] Model name: springmassdamper
+[INFO][FMUCHK] Model GUID: {5bf178c8-393d-4b34-90b8-f454d32f6847}
+[INFO][FMUCHK] Model version: 
+[INFO][FMUCHK] FMU kind: CoSimulation
+[INFO][FMUCHK] The FMU contains:
+0 constants
+1 parameters
+0 discrete variables
+2 continuous variables
+1 inputs
+1 outputs
+0 local variables
+0 independent variables
+0 calculated parameters
+3 real variables
+0 integer variables
+0 enumeration variables
+0 boolean variables
+0 string variables
+
+[INFO][FMUCHK] No input data provided. In case of simulation initial values from FMU will be used.
+[INFO][FMUCHK] Printing output file header
+[INFO][FMUCHK] Model identifier for CoSimulation: springmassdamper
+[INFO][FMILIB] Loading 'win64' binary with 'default' platform types
+[INFO][FMUCHK] Version returned from CS FMU:   2.0
+[INFO][FMUCHK] Initialized FMU for simulation starting at time 0
+[INFO][FMUCHK] Simulation finished successfully at time 50
+FMU check summary:
+FMU reported:
+	0 warning(s) and error(s)
+Checker reported:
+	0 Warning(s)
+	0 Error(s)

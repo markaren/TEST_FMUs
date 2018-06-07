@@ -1,0 +1,40 @@
+[INFO][FMUCHK] FMI compliance checker Test [FMILibrary: Test] build date: Apr 14 2015
+[INFO][FMUCHK] Called with following options:
+[INFO][FMUCHK] /maple/cbat/maple2015.2/2015-11-13/1087998/toolbox_source/FMIConnector/bin.X86_64_LINUX/FMUChecker-2.0.1/fmuCheck.linux64 -i /maple/cbat/maple2015.2/2015-11-13/1087998/toolbox_source/FMIConnector/maple/tst/data/CoupledClutches_in.csv -e /maple/cbat/maple2015.2/2015-11-13/1087998/toolbox_source/FMIConnector/maple/tst/temp/rdgegiant1.maplesoft.com/CoupledClutches_ME_cc.log -o /maple/cbat/maple2015.2/2015-11-13/1087998/toolbox_source/FMIConnector/maple/tst/temp/rdgegiant1.maplesoft.com/CoupledClutches_ME_cc.csv -n 151 -s 1.5 -h 1e-2 -t /usr/local/tmp/maple/tester43/tester.52421/rVgqJi5m/ /usr/local/tmp/maple/tester43/tester.52421/rVgqJi5m//CoupledClutches.fmu
+[INFO][FMUCHK] Will process FMU /usr/local/tmp/maple/tester43/tester.52421/rVgqJi5m//CoupledClutches.fmu
+[INFO][FMILIB] XML specifies FMI standard version 2.0
+[INFO][FMUCHK] Model name: CoupledClutches
+[INFO][FMUCHK] Model GUID: {36131c94-c068-7d17-e3a2-d76d84976f81}
+[INFO][FMUCHK] Model version: 
+[INFO][FMUCHK] FMU kind: ModelExchange
+[INFO][FMUCHK] The FMU contains:
+0 constants
+2 parameters
+38 discrete variables
+136 continuous variables
+1 inputs
+4 outputs
+169 local variables
+0 independent variables
+0 calculated parameters
+176 real variables
+0 integer variables
+0 enumeration variables
+0 boolean variables
+0 string variables
+
+[INFO][FMUCHK] Printing output file header
+[INFO][FMUCHK] Opening input file /maple/cbat/maple2015.2/2015-11-13/1087998/toolbox_source/FMIConnector/maple/tst/data/CoupledClutches_in.csv
+[INFO][FMUCHK] Detected separator character in input file: ,
+[INFO][FMUCHK] Model identifier for ModelExchange: CoupledClutches
+[INFO][FMILIB] Loading 'linux64' binary with 'default' platform types
+[INFO][FMUCHK] Version returned from ME FMU: '2.0'
+
+[INFO][FMUCHK] Initialized FMU for simulation starting at time 0
+[INFO][FMUCHK] Simulation finished successfully at time 1.5
+FMU check summary:
+FMU reported:
+	0 warning(s) and error(s)
+Checker reported:
+	0 Warning(s)
+	0 Error(s)

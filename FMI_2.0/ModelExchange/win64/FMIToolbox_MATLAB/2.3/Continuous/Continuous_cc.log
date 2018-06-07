@@ -1,0 +1,38 @@
+[INFO][FMUCHK] FMI compliance checker 2.0.2b1 [FMILibrary: rev7051] build date: Dec 22 2014
+[INFO][FMUCHK] Called with following options:
+[INFO][FMUCHK] fmuCheck.win64.exe -e Continuous_cc.log -o Continuous_cc.csv -s 10.000000 -h 0.001000 -c , Continuous.fmu
+[INFO][FMUCHK] Will process FMU Continuous.fmu
+[INFO][FMILIB] XML specifies FMI standard version 2.0
+[INFO][FMUCHK] Model name: Continuous
+[INFO][FMUCHK] Model GUID: a39e185cb0fd4d50e28d611b2a8ff0d1
+[INFO][FMUCHK] Model version: 1.53
+[INFO][FMUCHK] FMU kind: ModelExchange
+[INFO][FMUCHK] The FMU contains:
+0 constants
+35 parameters
+0 discrete variables
+20 continuous variables
+0 inputs
+6 outputs
+14 local variables
+0 independent variables
+0 calculated parameters
+55 real variables
+0 integer variables
+0 enumeration variables
+0 boolean variables
+0 string variables
+
+[INFO][FMUCHK] Printing output file header
+[INFO][FMUCHK] Model identifier for ModelExchange: Continuous
+[INFO][FMILIB] Loading 'win64' binary with 'default' platform types
+[INFO][FMUCHK] Version returned from ME FMU: '2.0'
+
+[INFO][FMUCHK] Initialized FMU for simulation starting at time 0
+[INFO][FMUCHK] Simulation finished successfully at time 10
+FMU check summary:
+FMU reported:
+	0 warning(s) and error(s)
+Checker reported:
+	0 Warning(s)
+	0 Error(s)

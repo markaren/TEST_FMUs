@@ -1,0 +1,38 @@
+[INFO][FMUCHK] FMI compliance checker 2.0.2b1 [FMILibrary: rev7051] build date: Dec 22 2014
+[INFO][FMUCHK] Called with following options:
+[INFO][FMUCHK] fmuCheck.win64.exe -e Signal_Attributes_cc.log -o Signal_Attributes_cc.csv -s 10.000000 -h 0.001000 -c , Signal_Attributes.fmu
+[INFO][FMUCHK] Will process FMU Signal_Attributes.fmu
+[INFO][FMILIB] XML specifies FMI standard version 2.0
+[INFO][FMUCHK] Model name: Signal_Attributes
+[INFO][FMUCHK] Model GUID: f0d0e26aa3c3495657a8dbb9bf1fc75a
+[INFO][FMUCHK] Model version: 1.54
+[INFO][FMUCHK] FMU kind: ModelExchange
+[INFO][FMUCHK] The FMU contains:
+0 constants
+50 parameters
+4 discrete variables
+17 continuous variables
+0 inputs
+18 outputs
+3 local variables
+0 independent variables
+0 calculated parameters
+65 real variables
+6 integer variables
+0 enumeration variables
+0 boolean variables
+0 string variables
+
+[INFO][FMUCHK] Printing output file header
+[INFO][FMUCHK] Model identifier for ModelExchange: Signal_Attributes
+[INFO][FMILIB] Loading 'win64' binary with 'default' platform types
+[INFO][FMUCHK] Version returned from ME FMU: '2.0'
+
+[INFO][FMUCHK] Initialized FMU for simulation starting at time 0
+[INFO][FMUCHK] Simulation finished successfully at time 10
+FMU check summary:
+FMU reported:
+	0 warning(s) and error(s)
+Checker reported:
+	0 Warning(s)
+	0 Error(s)

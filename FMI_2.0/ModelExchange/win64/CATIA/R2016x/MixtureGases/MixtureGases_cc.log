@@ -1,0 +1,38 @@
+[INFO][FMUCHK] FMI compliance checker 2.0.3b2 [FMILibrary: 2.0.2b3] build date: Apr 28 2016
+[INFO][FMUCHK] Called with following options:
+[INFO][FMUCHK] e:\users\R38\adele\CSR418PRJ_r38\CATSysExecModelica.tst\FunctionTests\InputData\CATSysExecExportFMUForCheck.rec\bin\win64\fmuCheck.win64.exe -e e:\users\R38\adele\CSR418PRJ_r38\CATSysExecModelica.tst\FunctionTests\InputData\CATSysExecExportFMUForCheck.rec\bin\win64\MixtureGases_cc.log -o e:\users\R38\adele\CSR418PRJ_r38\CATSysExecModelica.tst\FunctionTests\InputData\CATSysExecExportFMUForCheck.rec\bin\win64\MixtureGases_cc.csv -h 1e0 -s 25 e:\users\R38\adele\CSR418PRJ_r38\CATSysExecModelica.tst\FunctionTests\InputData\CATSysExecExportFMUForCheck.rec\bin\win64\MixtureGases.fmu
+[INFO][FMUCHK] Will process FMU e:\users\R38\adele\CSR418PRJ_r38\CATSysExecModelica.tst\FunctionTests\InputData\CATSysExecExportFMUForCheck.rec\bin\win64\MixtureGases.fmu
+[INFO][FMILIB] XML specifies FMI standard version 2.0
+[INFO][FMUCHK] Model name: MixtureGases
+[INFO][FMUCHK] Model GUID: {308c1ce4-2397-4e38-891e-a10230cc90cf}
+[INFO][FMUCHK] Model version: 
+[INFO][FMUCHK] FMU kind: ModelExchange
+[INFO][FMUCHK] The FMU contains:
+38 constants
+3 parameters
+0 discrete variables
+55 continuous variables
+0 inputs
+2 outputs
+93 local variables
+0 independent variables
+0 calculated parameters
+94 real variables
+0 integer variables
+0 enumeration variables
+4 boolean variables
+0 string variables
+
+[INFO][FMUCHK] Printing output file header
+[INFO][FMUCHK] Model identifier for ModelExchange: MixtureGases
+[INFO][FMILIB] Loading 'win64' binary with 'default' platform types
+[INFO][FMUCHK] Version returned from ME FMU: '2.0'
+
+[INFO][FMUCHK] Initialized FMU for simulation starting at time 0
+[INFO][FMUCHK] Simulation finished successfully at time 25
+FMU check summary:
+FMU reported:
+	0 warning(s) and error(s)
+Checker reported:
+	0 Warning(s)
+	0 Error(s)

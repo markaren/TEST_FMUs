@@ -1,0 +1,37 @@
+[INFO][FMUCHK] FMI compliance checker Test [FMILibrary: Test] build date: Mar 10 2015
+[INFO][FMUCHK] Called with following options:
+[INFO][FMUCHK] ./fmuCheck.linux64 -e compute_cc.log -o compute_cc.csv -s 60 -h 1e-2 -f -c ; compute.fmu
+[INFO][FMUCHK] Will process FMU compute.fmu
+[INFO][FMILIB] XML specifies FMI standard version 2.0
+[INFO][FMUCHK] Model name: compute
+[INFO][FMUCHK] Model GUID: 2486324958
+[INFO][FMUCHK] Model version: 
+[INFO][FMUCHK] FMU kind: CoSimulation
+[INFO][FMUCHK] The FMU contains:
+0 constants
+0 parameters
+600 discrete variables
+0 continuous variables
+0 inputs
+600 outputs
+0 local variables
+0 independent variables
+0 calculated parameters
+66 real variables
+452 integer variables
+6 enumeration variables
+70 boolean variables
+6 string variables
+
+[INFO][FMUCHK] Printing output file header
+[INFO][FMUCHK] Model identifier for CoSimulation: compute
+[INFO][FMILIB] Loading 'linux64' binary with 'default' platform types
+[INFO][FMUCHK] Version returned from CS FMU:   2.0
+[INFO][FMUCHK] Initialized FMU for simulation starting at time 0
+[INFO][FMUCHK] Simulation finished successfully at time 60
+FMU check summary:
+FMU reported:
+	0 warning(s) and error(s)
+Checker reported:
+	0 Warning(s)
+	0 Error(s)

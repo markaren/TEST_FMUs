@@ -1,0 +1,36 @@
+[INFO][FMUCHK] FMI compliance checker Test [FMILibrary: Test] build date: Nov 11 2016
+[INFO][FMUCHK] Will process FMU DFFREG.fmu
+[INFO][FMILIB] XML specifies FMI standard version 2.0
+[INFO][FMUCHK] Model name: DFFREG
+[INFO][FMUCHK] Model GUID: {0b72a17c-0cfe-4063-b90e-4126e91e6acc}
+[INFO][FMUCHK] Model version: 
+[INFO][FMUCHK] FMU kind: CoSimulation
+[INFO][FMUCHK] The FMU contains:
+18 constants
+36 parameters
+16 discrete variables
+10 continuous variables
+0 inputs
+2 outputs
+42 local variables
+0 independent variables
+6 calculated parameters
+22 real variables
+64 integer variables
+0 enumeration variables
+0 boolean variables
+0 string variables
+
+[INFO][FMUCHK] Printing output file header
+[INFO][FMUCHK] Model identifier for CoSimulation: DFFREG
+[INFO][FMILIB] Loading 'win64' binary with 'default' platform types
+[INFO][FMUCHK] Version returned from CS FMU:   2.0
+	[FMU][logMessage][FMU status:OK] Simulation started at Time = 0 using integration method EULER
+[INFO][FMUCHK] Initialized FMU for simulation starting at time 0
+[INFO][FMUCHK] Simulation finished successfully at time 25
+FMU check summary:
+FMU reported:
+	0 warning(s) and error(s)
+Checker reported:
+	0 Warning(s)
+	0 Error(s)

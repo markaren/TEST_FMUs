@@ -1,0 +1,39 @@
+[INFO][FMUCHK] FMI compliance checker rev215 [FMILibrary: 2.0.2] build date: Sep 30 2016
+[INFO][FMUCHK] Called with following options:
+[INFO][FMUCHK] E:\ez5b\source\L06229-03\Easy5\EASY52017\thirdparty\FMI\ComplianceChecker\win64\fmuCheck.win64.exe -e E:\ez5b\EASY52017\nt\build\applibs\xi\demos\FMU_Export\VanDerPol\ModelExchange_v2\lib_em64t_IFORT\CleanTest\testVanDerPol.log -o E:\ez5b\EASY52017\nt\build\applibs\xi\demos\FMU_Export\VanDerPol\ModelExchange_v2\lib_em64t_IFORT\CleanTest\testVanDerPol.csv -c , -h 0.001 -s 8.0 -n 0.0 E:\ez5b\EASY52017\nt\build\applibs\xi\demos\FMU_Export\VanDerPol\ModelExchange_v2\lib_em64t_IFORT\VanDerPol.fmu
+[INFO][FMUCHK] Will process FMU E:\ez5b\EASY52017\nt\build\applibs\xi\demos\FMU_Export\VanDerPol\ModelExchange_v2\lib_em64t_IFORT\VanDerPol.fmu
+[INFO][FMILIB] XML specifies FMI standard version 2.0
+[INFO][FMUCHK] Model name: VanDerPol
+[INFO][FMUCHK] Model GUID: e240417a-7800-465f-9f2f-8b3f58fb2a42
+[INFO][FMUCHK] Model version: 
+[INFO][FMUCHK] FMU kind: ModelExchange
+[INFO][FMUCHK] The FMU contains:
+0 constants
+0 parameters
+0 discrete variables
+3 continuous variables
+1 inputs
+2 outputs
+0 local variables
+0 independent variables
+0 calculated parameters
+3 real variables
+0 integer variables
+0 enumeration variables
+0 boolean variables
+0 string variables
+
+[INFO][FMUCHK] No input data provided. In case of simulation initial values from FMU will be used.
+[INFO][FMUCHK] Printing output file header
+[INFO][FMUCHK] Model identifier for ModelExchange: VanDerPol
+[INFO][FMILIB] Loading 'win64' binary with 'default' platform types
+[INFO][FMUCHK] Version returned from ME FMU: '2.0'
+
+[INFO][FMUCHK] Initialized FMU for simulation starting at time 0
+[INFO][FMUCHK] Simulation finished successfully at time 8
+FMU check summary:
+FMU reported:
+	0 warning(s) and error(s)
+Checker reported:
+	0 Warning(s)
+	0 Error(s)
