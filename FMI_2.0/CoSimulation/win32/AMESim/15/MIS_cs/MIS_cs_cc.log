@@ -1,0 +1,74 @@
+[INFO][FMUCHK] FMI compliance checker 2.0.2b1 [FMILibrary: rev7051] build date: Dec 22 2014
+[INFO][FMUCHK] Called with following options:
+[INFO][FMUCHK] fmuCheck.win32.exe -f -c , -l 4 -s 0.016 -h 1e-005 -e MIS_cs_cc.log -o MIS_cs_cc.csv MIS_cs.fmu
+[INFO][FMUCHK] Will process FMU MIS_cs.fmu
+[INFO][FMILIB] XML specifies FMI standard version 2.0
+[INFO][FMUCHK] Model name: MIS_cs
+[INFO][FMUCHK] Model GUID: 1939453855
+[INFO][FMUCHK] Model version: 
+[INFO][FMUCHK] FMU kind: CoSimulation
+[INFO][FMUCHK] The FMU contains:
+0 constants
+10 parameters
+0 discrete variables
+2 continuous variables
+0 inputs
+0 outputs
+2 local variables
+0 independent variables
+0 calculated parameters
+5 real variables
+7 integer variables
+0 enumeration variables
+0 boolean variables
+0 string variables
+
+[INFO][FMUCHK] Printing output file header
+[INFO][FMUCHK] Model identifier for CoSimulation: MIS_cs
+[INFO][FMILIB] Loading 'win32' binary with 'default' platform types
+[INFO][FMUCHK] Version returned from CS FMU:   2.0
+	[FMU][warning][FMU status:Warning] MIS_cs_fmi2Instantiate: the AME environment variable is undefined. Simulation could fail if the model requires datas from the LMS Amesim distribution
+	[FMU][model][FMU status:Warning] 
+ Sound propagation time, Twave = 0.000237022, is less than print interval in HL040.
+
+	[FMU][model][FMU status:Warning] 
+ Unless you modify the print interval, wave effects will not be visible in the saved results.
+
+	[FMU][model][FMU status:Warning] 
+ Thus the suggested substitute submodel below is friction dominated.
+
+	[FMU][model][FMU status:Warning] 
+ Consider using a HL0001 submodel.
+
+	[FMU][model][FMU status:Warning] 
+Warning in HL040 instance 1.
+
+	[FMU][model][FMU status:Warning] 
+ Sound propagation time, Twave = 0.00210686, is less than print interval in HL040.
+
+	[FMU][model][FMU status:Warning] 
+ Unless you modify the print interval, wave effects will not be visible in the saved results.
+
+	[FMU][model][FMU status:Warning] 
+ Thus the suggested substitute submodel below is friction dominated.
+
+	[FMU][model][FMU status:Warning] 
+ Consider using a HL0001 submodel.
+
+	[FMU][model][FMU status:Warning] 
+Warning in HL040 instance 2.
+
+	[FMU][model][FMU status:Warning] Unable to open file MIS_cs_.lock
+
+[INFO][FMUCHK] Initialized FMU for simulation starting at time 0
+	[FMU][model][FMU status:Warning] 
+Warning in BHC11 instance 5
+Chamber volume is limited by vol0 / 100 = 0.000000.
+
+[INFO][FMUCHK] Simulation finished successfully at time 0.016
+FMU check summary:
+FMU reported:
+	13 warning(s) and error(s)
+Checker reported:
+	0 Warning(s)
+	0 Error(s)

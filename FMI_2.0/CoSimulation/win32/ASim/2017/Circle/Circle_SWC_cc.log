@@ -1,0 +1,37 @@
+[INFO][FMUCHK] FMI compliance checker 2.0.1 [FMILibrary: 2.0.1] build date: Oct 24 2014
+[INFO][FMUCHK] Called with following options:
+[INFO][FMUCHK] fmuCheck.win32.exe -e Circle_cc.log -o Circle_cc.csv -h 1 -s 5 Circle_SWC.fmu
+[INFO][FMUCHK] Will process FMU Circle_SWC.fmu
+[INFO][FMILIB] XML specifies FMI standard version 2.0
+[INFO][FMUCHK] Model name: Circle_SWC
+[INFO][FMUCHK] Model GUID: DCE:b6b0cb64-7a66-4d04-8d96-750c719e0e24
+[INFO][FMUCHK] Model version: 1.0
+[INFO][FMUCHK] FMU kind: CoSimulation
+[INFO][FMUCHK] The FMU contains:
+0 constants
+0 parameters
+2 discrete variables
+0 continuous variables
+0 inputs
+2 outputs
+0 local variables
+0 independent variables
+0 calculated parameters
+2 real variables
+0 integer variables
+0 enumeration variables
+0 boolean variables
+0 string variables
+
+[INFO][FMUCHK] Printing output file header
+[INFO][FMUCHK] Model identifier for CoSimulation: Circle_SWC
+[INFO][FMILIB] Loading 'win32' binary with 'default' platform types
+[INFO][FMUCHK] Version returned from CS FMU:   2.0
+[INFO][FMUCHK] Initialized FMU for simulation starting at time 0
+[INFO][FMUCHK] Simulation finished successfully at time 5
+FMU check summary:
+FMU reported:
+	0 warning(s) and error(s)
+Checker reported:
+	0 Warning(s)
+	0 Error(s)

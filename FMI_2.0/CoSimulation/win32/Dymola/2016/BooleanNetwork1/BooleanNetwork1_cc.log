@@ -1,0 +1,81 @@
+[INFO][FMUCHK] FMI compliance checker 2.0.2b1 [FMILibrary: rev7051] build date: Dec 22 2014
+[INFO][FMUCHK] Called with following options:
+[INFO][FMUCHK] fmuCheck.win32.exe -k cs -e BooleanNetwork1_cc.log -o BooleanNetwork1_cc.csv -i BooleanNetwork1_in.csv -h 1e-2 -s 10 BooleanNetwork1.fmu
+[INFO][FMUCHK] Will process FMU BooleanNetwork1.fmu
+[INFO][FMILIB] XML specifies FMI standard version 2.0
+[INFO][FMUCHK] Model name: BooleanNetwork1
+[INFO][FMUCHK] Model GUID: {0fb8e6d3-184c-42fb-93a3-60b482d50efa}
+[INFO][FMUCHK] Model version: 
+[INFO][FMUCHK] FMU kind: CoSimulation
+[INFO][FMUCHK] The FMU contains:
+2 constants
+26 parameters
+67 discrete variables
+0 continuous variables
+1 inputs
+9 outputs
+60 local variables
+0 independent variables
+0 calculated parameters
+18 real variables
+7 integer variables
+0 enumeration variables
+71 boolean variables
+0 string variables
+
+[INFO][FMUCHK] Printing output file header
+[INFO][FMUCHK] Opening input file BooleanNetwork1_in.csv
+[INFO][FMUCHK] Detected separator character in input file: ,
+[INFO][FMUCHK] Model identifier for CoSimulation: BooleanNetwork1
+[INFO][FMILIB] Loading 'win32' binary with 'default' platform types
+[INFO][FMUCHK] Version returned from CS FMU:   2.0
+[INFO][FMUCHK] Initialized FMU for simulation starting at time 0
+	[FMU][FMU status:Warning] CVODE: CVode failed with CV_TOO_CLOSE:
+ tout too close to t0 to start integration.
+	[FMU][FMU status:Warning] CVODE: CVode failed with NONE:
+ Internal t = 8 and h = 5.32907e-016 are such that t + h = t on the next step. The solver will continue anyway.
+	[FMU][FMU status:Warning] CVODE: CVode failed with NONE:
+ Internal t = 8 and h = 5.32907e-016 are such that t + h = t on the next step. The solver will continue anyway.
+	[FMU][FMU status:Warning] CVODE: CVode failed with NONE:
+ Internal t = 8.2 and h = 5.32907e-016 are such that t + h = t on the next step. The solver will continue anyway.
+	[FMU][FMU status:Warning] CVODE: CVode failed with NONE:
+ Internal t = 8.2 and h = 5.32907e-016 are such that t + h = t on the next step. The solver will continue anyway.
+	[FMU][FMU status:Warning] CVODE: CVode failed with NONE:
+ Internal t = 8.3 and h = 5.32907e-016 are such that t + h = t on the next step. The solver will continue anyway.
+	[FMU][FMU status:Warning] CVODE: CVode failed with NONE:
+ Internal t = 8.3 and h = 5.32907e-016 are such that t + h = t on the next step. The solver will continue anyway.
+	[FMU][FMU status:Warning] CVODE: CVode failed with NONE:
+ Internal t = 8.5 and h = 5.32907e-016 are such that t + h = t on the next step. The solver will continue anyway.
+	[FMU][FMU status:Warning] CVODE: CVode failed with NONE:
+ Internal t = 8.5 and h = 5.32907e-016 are such that t + h = t on the next step. The solver will continue anyway.
+	[FMU][FMU status:Warning] CVODE: CVode failed with NONE:
+ Internal t = 8.8 and h = 5.32907e-016 are such that t + h = t on the next step. The solver will continue anyway.
+	[FMU][FMU status:Warning] CVODE: CVode failed with NONE:
+ Internal t = 8.8 and h = 5.32907e-016 are such that t + h = t on the next step. The solver will continue anyway.
+	[FMU][FMU status:Warning] CVODE: CVode failed with NONE:
+ Internal t = 9 and h = 5.32907e-016 are such that t + h = t on the next step. The solver will continue anyway.
+	[FMU][FMU status:Warning] CVODE: CVode failed with NONE:
+ Internal t = 9 and h = 5.32907e-016 are such that t + h = t on the next step. The solver will continue anyway.
+	[FMU][FMU status:Warning] CVODE: CVode failed with NONE:
+ Internal t = 9.2 and h = 5.32907e-016 are such that t + h = t on the next step. The solver will continue anyway.
+	[FMU][FMU status:Warning] CVODE: CVode failed with NONE:
+ Internal t = 9.2 and h = 5.32907e-016 are such that t + h = t on the next step. The solver will continue anyway.
+	[FMU][FMU status:Warning] CVODE: CVode failed with NONE:
+ Internal t = 9.3 and h = 5.32907e-016 are such that t + h = t on the next step. The solver will continue anyway.
+	[FMU][FMU status:Warning] CVODE: CVode failed with NONE:
+ Internal t = 9.3 and h = 5.32907e-016 are such that t + h = t on the next step. The solver will continue anyway.
+	[FMU][FMU status:Warning] CVODE: CVode failed with NONE:
+ Internal t = 9.5 and h = 5.32907e-016 are such that t + h = t on the next step. The solver will continue anyway.
+	[FMU][FMU status:Warning] CVODE: CVode failed with NONE:
+ Internal t = 9.5 and h = 5.32907e-016 are such that t + h = t on the next step. The solver will continue anyway.
+	[FMU][FMU status:Warning] CVODE: CVode failed with NONE:
+ Internal t = 9.8 and h = 5.32907e-016 are such that t + h = t on the next step. The solver will continue anyway.
+	[FMU][FMU status:Warning] CVODE: CVode failed with NONE:
+ Internal t = 9.8 and h = 5.32907e-016 are such that t + h = t on the next step. The solver will continue anyway.
+[INFO][FMUCHK] Simulation finished successfully at time 10
+FMU check summary:
+FMU reported:
+	21 warning(s) and error(s)
+Checker reported:
+	0 Warning(s)
+	0 Error(s)

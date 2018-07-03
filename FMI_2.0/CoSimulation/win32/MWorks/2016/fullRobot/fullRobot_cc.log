@@ -1,0 +1,36 @@
+[INFO][FMUCHK] FMI compliance checker Test [FMILibrary: Test] build date: Nov 11 2016
+[INFO][FMUCHK] Will process FMU fullRobot.fmu
+[INFO][FMILIB] XML specifies FMI standard version 2.0
+[INFO][FMUCHK] Model name: fullRobot
+[INFO][FMUCHK] Model GUID: {9123676c-95b2-4aed-820d-8a578e960ea8}
+[INFO][FMUCHK] Model version: 
+[INFO][FMUCHK] FMU kind: CoSimulation
+[INFO][FMUCHK] The FMU contains:
+1232 constants
+541 parameters
+31 discrete variables
+2932 continuous variables
+0 inputs
+6 outputs
+4189 local variables
+0 independent variables
+674 calculated parameters
+4841 real variables
+318 integer variables
+0 enumeration variables
+251 boolean variables
+0 string variables
+
+[INFO][FMUCHK] Printing output file header
+[INFO][FMUCHK] Model identifier for CoSimulation: fullRobot
+[INFO][FMILIB] Loading 'win32' binary with 'default' platform types
+[INFO][FMUCHK] Version returned from CS FMU:   2.0
+	[FMU][logMessage][FMU status:OK] Simulation started at Time = 0 using integration method EULER
+[INFO][FMUCHK] Initialized FMU for simulation starting at time 0
+[INFO][FMUCHK] Simulation finished successfully at time 1
+FMU check summary:
+FMU reported:
+	0 warning(s) and error(s)
+Checker reported:
+	0 Warning(s)
+	0 Error(s)

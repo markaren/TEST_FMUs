@@ -1,0 +1,38 @@
+[INFO][FMUCHK] FMI compliance checker 2.0.2b1 [FMILibrary: rev7051] build date: Dec 22 2014
+[INFO][FMUCHK] Called with following options:
+[INFO][FMUCHK] fmuCheck.win32 -f -e ClassEAmplifier_cc.log -o ClassEAmplifier_cc.csv -l 4 -h 1e-7 -s 1e-4 ClassEAmplifier.fmu
+[INFO][FMUCHK] Will process FMU ClassEAmplifier.fmu
+[INFO][FMILIB] XML specifies FMI standard version 2.0
+[INFO][FMUCHK] Model name: ClassEAmplifier
+[INFO][FMUCHK] Model GUID: 2742988569
+[INFO][FMUCHK] Model version: 
+[INFO][FMUCHK] FMU kind: CoSimulation
+[INFO][FMUCHK] The FMU contains:
+0 constants
+10 parameters
+0 discrete variables
+2 continuous variables
+0 inputs
+0 outputs
+2 local variables
+0 independent variables
+0 calculated parameters
+5 real variables
+7 integer variables
+0 enumeration variables
+0 boolean variables
+0 string variables
+
+[INFO][FMUCHK] Printing output file header
+[INFO][FMUCHK] Model identifier for CoSimulation: ClassEAmplifier
+[INFO][FMILIB] Loading 'win32' binary with 'default' platform types
+[INFO][FMUCHK] Version returned from CS FMU:   2.0
+	[FMU][warning][FMU status:Warning] ClassEAmplifier_fmi2Instantiate: the AME environment variable is undefined. Simulation could fail if the model requires datas from the LMS Amesim distribution
+[INFO][FMUCHK] Initialized FMU for simulation starting at time 0
+[INFO][FMUCHK] Simulation finished successfully at time 0.0001
+FMU check summary:
+FMU reported:
+	1 warning(s) and error(s)
+Checker reported:
+	0 Warning(s)
+	0 Error(s)

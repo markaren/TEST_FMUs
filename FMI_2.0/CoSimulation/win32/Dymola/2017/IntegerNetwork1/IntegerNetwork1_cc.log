@@ -1,0 +1,73 @@
+[INFO][FMUCHK] FMI compliance checker 2.0.3b2 [FMILibrary: 2.0.2b3] build date: Apr 28 2016
+[INFO][FMUCHK] Called with following options:
+[INFO][FMUCHK] fmuCheck.win32.exe -k cs -e IntegerNetwork1_cc.log -o IntegerNetwork1_cc.csv -i IntegerNetwork1_in.csv -h 1e-2 -s 10 IntegerNetwork1.fmu
+[INFO][FMUCHK] Will process FMU IntegerNetwork1.fmu
+[INFO][FMILIB] XML specifies FMI standard version 2.0
+[INFO][FMUCHK] Model name: IntegerNetwork1
+[INFO][FMUCHK] Model GUID: {63989b57-8891-49b3-801e-9a26d503b36b}
+[INFO][FMUCHK] Model version: 
+[INFO][FMUCHK] FMU kind: CoSimulation
+[INFO][FMUCHK] The FMU contains:
+2 constants
+17 parameters
+26 discrete variables
+2 continuous variables
+1 inputs
+4 outputs
+25 local variables
+0 independent variables
+0 calculated parameters
+13 real variables
+29 integer variables
+0 enumeration variables
+5 boolean variables
+0 string variables
+
+[INFO][FMUCHK] Printing output file header
+[INFO][FMUCHK] Opening input file IntegerNetwork1_in.csv
+[INFO][FMUCHK] Detected separator character in input file: ,
+[INFO][FMUCHK] Model identifier for CoSimulation: IntegerNetwork1
+[INFO][FMILIB] Loading 'win32' binary with 'default' platform types
+[INFO][FMUCHK] Version returned from CS FMU:   2.0
+[INFO][FMUCHK] Initialized FMU for simulation starting at time 0
+	[FMU][FMU status:Warning] CVODE: CVode failed with CV_TOO_CLOSE:
+ tout too close to t0 to start integration.
+	[FMU][FMU status:Warning] CVODE: CVode failed with NONE:
+ Internal t = 8 and h = 6.66134e-016 are such that t + h = t on the next step. The solver will continue anyway.
+	[FMU][FMU status:Warning] CVODE: CVode failed with NONE:
+ Internal t = 8 and h = 6.66134e-016 are such that t + h = t on the next step. The solver will continue anyway.
+	[FMU][FMU status:Warning] CVODE: CVode failed with NONE:
+ Internal t = 8.43215 and h = 6.66134e-016 are such that t + h = t on the next step. The solver will continue anyway.
+	[FMU][FMU status:Warning] CVODE: CVode failed with NONE:
+ Internal t = 8.43215 and h = 6.66134e-016 are such that t + h = t on the next step. The solver will continue anyway.
+	[FMU][FMU status:Warning] CVODE: CVode failed with NONE:
+ Internal t = 8.5 and h = 6.66134e-016 are such that t + h = t on the next step. The solver will continue anyway.
+	[FMU][FMU status:Warning] CVODE: CVode failed with NONE:
+ Internal t = 8.5 and h = 6.66134e-016 are such that t + h = t on the next step. The solver will continue anyway.
+	[FMU][FMU status:Warning] CVODE: CVode failed with NONE:
+ Internal t = 9 and h = 6.66134e-016 are such that t + h = t on the next step. The solver will continue anyway.
+	[FMU][FMU status:Warning] CVODE: CVode failed with NONE:
+ Internal t = 9 and h = 6.66134e-016 are such that t + h = t on the next step. The solver will continue anyway.
+	[FMU][FMU status:Warning] CVODE: CVode failed with NONE:
+ Internal t = 9.16667 and h = 6.66134e-016 are such that t + h = t on the next step. The solver will continue anyway.
+	[FMU][FMU status:Warning] CVODE: CVode failed with NONE:
+ Internal t = 9.16667 and h = 6.66134e-016 are such that t + h = t on the next step. The solver will continue anyway.
+	[FMU][FMU status:Warning] CVODE: CVode failed with NONE:
+ Internal t = 9.5 and h = 6.66134e-016 are such that t + h = t on the next step. The solver will continue anyway.
+	[FMU][FMU status:Warning] CVODE: CVode failed with NONE:
+ Internal t = 9.5 and h = 6.66134e-016 are such that t + h = t on the next step. The solver will continue anyway.
+	[FMU][FMU status:Warning] CVODE: CVode failed with NONE:
+ Internal t = 9.6 and h = 6.66134e-016 are such that t + h = t on the next step. The solver will continue anyway.
+	[FMU][FMU status:Warning] CVODE: CVode failed with NONE:
+ Internal t = 9.6 and h = 6.66134e-016 are such that t + h = t on the next step. The solver will continue anyway.
+	[FMU][FMU status:Warning] CVODE: CVode failed with NONE:
+ Internal t = 9.7335 and h = 6.66134e-016 are such that t + h = t on the next step. The solver will continue anyway.
+	[FMU][FMU status:Warning] CVODE: CVode failed with NONE:
+ Internal t = 9.7335 and h = 6.66134e-016 are such that t + h = t on the next step. The solver will continue anyway.
+[INFO][FMUCHK] Simulation finished successfully at time 10
+FMU check summary:
+FMU reported:
+	17 warning(s) and error(s)
+Checker reported:
+	0 Warning(s)
+	0 Error(s)

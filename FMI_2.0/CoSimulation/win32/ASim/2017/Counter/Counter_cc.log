@@ -1,0 +1,37 @@
+[INFO][FMUCHK] FMI compliance checker 2.0.1 [FMILibrary: 2.0.1] build date: Oct 24 2014
+[INFO][FMUCHK] Called with following options:
+[INFO][FMUCHK] fmuCheck.win32.exe -e Counter_cc.log -o Counter_cc.csv -h 0.1 -s 4 Counter.fmu
+[INFO][FMUCHK] Will process FMU Counter.fmu
+[INFO][FMILIB] XML specifies FMI standard version 2.0
+[INFO][FMUCHK] Model name: Counter
+[INFO][FMUCHK] Model GUID: ba4c05b2-55de-4c3c-9207-1a048508bd52
+[INFO][FMUCHK] Model version: 1.0
+[INFO][FMUCHK] FMU kind: CoSimulation
+[INFO][FMUCHK] The FMU contains:
+0 constants
+0 parameters
+3 discrete variables
+0 continuous variables
+0 inputs
+1 outputs
+2 local variables
+0 independent variables
+0 calculated parameters
+0 real variables
+3 integer variables
+0 enumeration variables
+0 boolean variables
+0 string variables
+
+[INFO][FMUCHK] Printing output file header
+[INFO][FMUCHK] Model identifier for CoSimulation: Counter
+[INFO][FMILIB] Loading 'win32' binary with 'default' platform types
+[INFO][FMUCHK] Version returned from CS FMU:   2.0
+[INFO][FMUCHK] Initialized FMU for simulation starting at time 0
+[INFO][FMUCHK] Simulation finished successfully at time 4
+FMU check summary:
+FMU reported:
+	0 warning(s) and error(s)
+Checker reported:
+	0 Warning(s)
+	0 Error(s)

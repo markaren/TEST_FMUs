@@ -1,0 +1,36 @@
+[INFO][FMUCHK] FMI compliance checker Test [FMILibrary: Test] build date: Nov 11 2016
+[INFO][FMUCHK] Will process FMU MixtureGases.fmu
+[INFO][FMILIB] XML specifies FMI standard version 2.0
+[INFO][FMUCHK] Model name: MixtureGases
+[INFO][FMUCHK] Model GUID: {2eef9e87-c786-48e7-a279-8e9e82c3bd82}
+[INFO][FMUCHK] Model version: 
+[INFO][FMUCHK] FMU kind: CoSimulation
+[INFO][FMUCHK] The FMU contains:
+400 constants
+3 parameters
+0 discrete variables
+43 continuous variables
+0 inputs
+2 outputs
+441 local variables
+0 independent variables
+0 calculated parameters
+362 real variables
+0 integer variables
+0 enumeration variables
+84 boolean variables
+0 string variables
+
+[INFO][FMUCHK] Printing output file header
+[INFO][FMUCHK] Model identifier for CoSimulation: MixtureGases
+[INFO][FMILIB] Loading 'win32' binary with 'default' platform types
+[INFO][FMUCHK] Version returned from CS FMU:   2.0
+	[FMU][logMessage][FMU status:OK] Simulation started at Time = 0 using integration method EULER
+[INFO][FMUCHK] Initialized FMU for simulation starting at time 0
+[INFO][FMUCHK] Simulation finished successfully at time 1
+FMU check summary:
+FMU reported:
+	0 warning(s) and error(s)
+Checker reported:
+	0 Warning(s)
+	0 Error(s)

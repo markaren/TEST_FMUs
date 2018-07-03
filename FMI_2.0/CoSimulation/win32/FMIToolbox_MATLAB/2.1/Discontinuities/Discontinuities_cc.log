@@ -1,0 +1,39 @@
+[INFO][FMUCHK] FMI compliance checker 2.0.2b1 [FMILibrary: rev7051] build date: Dec 22 2014
+[INFO][FMUCHK] Called with following options:
+[INFO][FMUCHK] fmuCheck.win32.exe -e Discontinuities_cc.log -o Discontinuities_cc.csv -s 10.000000 -h 0.001000 -c , Discontinuities.fmu
+[INFO][FMUCHK] Will process FMU Discontinuities.fmu
+[INFO][FMILIB] XML specifies FMI standard version 2.0
+[INFO][FMUCHK] Model name: Discontinuities
+[INFO][FMUCHK] Model GUID: 554414c9386413566dcb77b0a8ea5f5d
+[INFO][FMUCHK] Model version: 1.57
+[INFO][FMUCHK] FMU kind: CoSimulation
+[INFO][FMUCHK] The FMU contains:
+0 constants
+64 parameters
+1 discrete variables
+9 continuous variables
+0 inputs
+10 outputs
+0 local variables
+0 independent variables
+0 calculated parameters
+73 real variables
+0 integer variables
+0 enumeration variables
+1 boolean variables
+0 string variables
+
+[INFO][FMUCHK] Printing output file header
+[INFO][FMUCHK] Model identifier for CoSimulation: Discontinuities
+[INFO][FMILIB] Loading 'win32' binary with 'default' platform types
+[INFO][FMUCHK] Version returned from CS FMU:   2.0
+[INFO][FMUCHK] Initialized FMU for simulation starting at time 0
+[WARNING][FMUCHK] FMU does not support variable communication stepsize. Stepsize may not be altered to reach stopTime exactly.
+[WARNING][FMUCHK] FMU does not support variable communication stepsize. Stepsize may not be altered to reach stopTime exactly.
+[INFO][FMUCHK] Simulation finished successfully at time 10.001
+FMU check summary:
+FMU reported:
+	0 warning(s) and error(s)
+Checker reported:
+	2 Warning(s)
+	0 Error(s)

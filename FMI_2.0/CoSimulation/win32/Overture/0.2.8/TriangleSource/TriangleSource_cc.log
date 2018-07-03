@@ -1,0 +1,8 @@
+FMU check summary:
+FMU reported:
+	0 warning(s) and error(s)
+Checker reported:
+	0 Warning(s)
+	0 Error(s)
+No alive signal from FMU withing 800 ms period. Freeing instance!
+ WARN [Thread-2] (ProtocolDriver.java:102) - No alive signal from FMU withing 800 ms period. Freeing instance!

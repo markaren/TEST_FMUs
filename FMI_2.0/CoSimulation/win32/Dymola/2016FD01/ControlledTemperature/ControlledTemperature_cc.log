@@ -1,0 +1,37 @@
+[INFO][FMUCHK] FMI compliance checker 2.0.2b1 [FMILibrary: rev7051] build date: Dec 22 2014
+[INFO][FMUCHK] Called with following options:
+[INFO][FMUCHK] fmuCheck.win32.exe -k cs -e ControlledTemperature_cc.log -o ControlledTemperature_cc.csv -h 1e-3 -s 10 ControlledTemperature.fmu
+[INFO][FMUCHK] Will process FMU ControlledTemperature.fmu
+[INFO][FMILIB] XML specifies FMI standard version 2.0
+[INFO][FMUCHK] Model name: ControlledTemperature
+[INFO][FMUCHK] Model GUID: {c230db6a-33e5-43b3-a913-1f66e48ef056}
+[INFO][FMUCHK] Model version: 
+[INFO][FMUCHK] FMU kind: CoSimulation
+[INFO][FMUCHK] The FMU contains:
+7 constants
+15 parameters
+5 discrete variables
+41 continuous variables
+0 inputs
+3 outputs
+54 local variables
+0 independent variables
+0 calculated parameters
+66 real variables
+0 integer variables
+0 enumeration variables
+6 boolean variables
+0 string variables
+
+[INFO][FMUCHK] Printing output file header
+[INFO][FMUCHK] Model identifier for CoSimulation: ControlledTemperature
+[INFO][FMILIB] Loading 'win32' binary with 'default' platform types
+[INFO][FMUCHK] Version returned from CS FMU:   2.0
+[INFO][FMUCHK] Initialized FMU for simulation starting at time 0
+[INFO][FMUCHK] Simulation finished successfully at time 10
+FMU check summary:
+FMU reported:
+	0 warning(s) and error(s)
+Checker reported:
+	0 Warning(s)
+	0 Error(s)

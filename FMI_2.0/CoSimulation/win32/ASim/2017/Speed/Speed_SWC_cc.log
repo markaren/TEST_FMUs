@@ -1,0 +1,38 @@
+[INFO][FMUCHK] FMI compliance checker 2.0.1 [FMILibrary: 2.0.1] build date: Oct 24 2014
+[INFO][FMUCHK] Called with following options:
+[INFO][FMUCHK] fmuCheck.win32.exe -e Speed_cc.log -o Speed_cc.csv -h 0.1 -s 4 Speed_SWC.fmu
+[INFO][FMUCHK] Will process FMU Speed_SWC.fmu
+[INFO][FMILIB] XML specifies FMI standard version 2.0
+[INFO][FMUCHK] Model name: Speed_SWC
+[INFO][FMUCHK] Model GUID: DCE:49c245a4-7b08-4d2a-8ee7-5a15aef1cdd5
+[INFO][FMUCHK] Model version: 1.0
+[INFO][FMUCHK] FMU kind: CoSimulation
+[INFO][FMUCHK] The FMU contains:
+0 constants
+0 parameters
+3 discrete variables
+0 continuous variables
+2 inputs
+1 outputs
+0 local variables
+0 independent variables
+0 calculated parameters
+3 real variables
+0 integer variables
+0 enumeration variables
+0 boolean variables
+0 string variables
+
+[INFO][FMUCHK] No input data provided. In case of simulation initial values from FMU will be used.
+[INFO][FMUCHK] Printing output file header
+[INFO][FMUCHK] Model identifier for CoSimulation: Speed_SWC
+[INFO][FMILIB] Loading 'win32' binary with 'default' platform types
+[INFO][FMUCHK] Version returned from CS FMU:   2.0
+[INFO][FMUCHK] Initialized FMU for simulation starting at time 0
+[INFO][FMUCHK] Simulation finished successfully at time 4
+FMU check summary:
+FMU reported:
+	0 warning(s) and error(s)
+Checker reported:
+	0 Warning(s)
+	0 Error(s)

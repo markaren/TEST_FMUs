@@ -1,0 +1,37 @@
+[INFO][FMUCHK] FMI compliance checker 2.0.3b2 [FMILibrary: 2.0.2b3] build date: Apr 28 2016
+[INFO][FMUCHK] Called with following options:
+[INFO][FMUCHK] C:\temp\FMIcc\FMI_2.0\CoSimulation\win32\SimulationX\3.7\Rectifier\fmuCheck.win32.exe -e C:\temp\FMIcc\FMI_2.0\CoSimulation\win32\SimulationX\3.7\Rectifier\Rectifier_cc.log -o C:\temp\FMIcc\FMI_2.0\CoSimulation\win32\SimulationX\3.7\Rectifier\Rectifier_cc.csv -l 4 -h 1e-7 -s 0.1 C:\temp\FMIcc\FMI_2.0\CoSimulation\win32\SimulationX\3.7\Rectifier\Rectifier.fmu
+[INFO][FMUCHK] Will process FMU C:\temp\FMIcc\FMI_2.0\CoSimulation\win32\SimulationX\3.7\Rectifier\Rectifier.fmu
+[INFO][FMILIB] XML specifies FMI standard version 2.0
+[INFO][FMUCHK] Model name: Rectifier
+[INFO][FMUCHK] Model GUID: {DBF29571-0A89-497D-A6FF-1ABC821808C9}
+[INFO][FMUCHK] Model version: 
+[INFO][FMUCHK] FMU kind: CoSimulation
+[INFO][FMUCHK] The FMU contains:
+0 constants
+6 parameters
+0 discrete variables
+10 continuous variables
+0 inputs
+2 outputs
+8 local variables
+0 independent variables
+0 calculated parameters
+14 real variables
+2 integer variables
+0 enumeration variables
+0 boolean variables
+0 string variables
+
+[INFO][FMUCHK] Printing output file header
+[INFO][FMUCHK] Model identifier for CoSimulation: Rectifier
+[INFO][FMILIB] Loading 'win32' binary with 'default' platform types
+[INFO][FMUCHK] Version returned from CS FMU:   2.0
+[INFO][FMUCHK] Initialized FMU for simulation starting at time 0
+[INFO][FMUCHK] Simulation finished successfully at time 0.1
+FMU check summary:
+FMU reported:
+	0 warning(s) and error(s)
+Checker reported:
+	0 Warning(s)
+	0 Error(s)
