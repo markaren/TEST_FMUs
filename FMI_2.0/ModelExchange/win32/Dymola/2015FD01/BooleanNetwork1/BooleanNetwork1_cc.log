@@ -1,0 +1,40 @@
+[INFO][FMUCHK] FMI compliance checker 2.0.2b1 [FMILibrary: rev7051] build date: Dec 22 2014
+[INFO][FMUCHK] Called with following options:
+[INFO][FMUCHK] fmuCheck.win32.exe -k me -e BooleanNetwork1_cc.log -o BooleanNetwork1_cc.csv -i BooleanNetwork1_in.csv -h 1e-2 -s 10 BooleanNetwork1.fmu
+[INFO][FMUCHK] Will process FMU BooleanNetwork1.fmu
+[INFO][FMILIB] XML specifies FMI standard version 2.0
+[INFO][FMUCHK] Model name: BooleanNetwork1
+[INFO][FMUCHK] Model GUID: {30dabf6b-f061-45dd-8306-0e7c1f2bbc4e}
+[INFO][FMUCHK] Model version: 
+[INFO][FMUCHK] FMU kind: ModelExchange
+[INFO][FMUCHK] The FMU contains:
+4 constants
+26 parameters
+72 discrete variables
+0 continuous variables
+1 inputs
+9 outputs
+67 local variables
+0 independent variables
+0 calculated parameters
+20 real variables
+11 integer variables
+0 enumeration variables
+72 boolean variables
+0 string variables
+
+[INFO][FMUCHK] Printing output file header
+[INFO][FMUCHK] Opening input file BooleanNetwork1_in.csv
+[INFO][FMUCHK] Detected separator character in input file: ,
+[INFO][FMUCHK] Model identifier for ModelExchange: BooleanNetwork1
+[INFO][FMILIB] Loading 'win32' binary with 'default' platform types
+[INFO][FMUCHK] Version returned from ME FMU: '2.0'
+
+[INFO][FMUCHK] Initialized FMU for simulation starting at time 0
+[INFO][FMUCHK] Simulation finished successfully at time 10
+FMU check summary:
+FMU reported:
+	0 warning(s) and error(s)
+Checker reported:
+	0 Warning(s)
+	0 Error(s)

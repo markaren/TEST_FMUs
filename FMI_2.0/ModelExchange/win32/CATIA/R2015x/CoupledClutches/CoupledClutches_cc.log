@@ -1,0 +1,443 @@
+[INFO][FMUCHK] Will process FMU e:\users\R38\adele\CSR417MDrel_r38\CATSysExecModelica.tst\FunctionTests\InputData\CATSysExecExportFMUForCheck.rec\bin\win32\CoupledClutches.fmu
+[INFO][FMILIB] XML specifies FMI standard version 2.0
+[INFO][FMUCHK] Model name: CoupledClutches
+[INFO][FMUCHK] Model GUID: {c56263db-2e89-49f7-ba7e-2f5f8891fb40}
+[INFO][FMUCHK] Model version: 
+[INFO][FMUCHK] FMU kind: ModelExchange
+[INFO][FMUCHK] The FMU contains:
+25 constants
+37 parameters
+19 discrete variables
+116 continuous variables
+1 inputs
+4 outputs
+157 local variables
+0 independent variables
+0 calculated parameters
+169 real variables
+18 integer variables
+0 enumeration variables
+12 boolean variables
+0 string variables
+
+[INFO][FMUCHK] Printing output file header
+[INFO][FMUCHK] Model identifier for ModelExchange: CoupledClutches
+[INFO][FMILIB] Loading 'win32' binary with 'default' platform types
+[INFO][FMUCHK] Version returned from ME FMU: '2.0'
+
+	[FMU][FMU status:OK] fmiInstantiateModel completed
+	[FMU][FMU status:OK] fmiSetTime to 0
+	[FMU][FMU status:OK] fmiEnterModelInitializationMode...
+	[FMU][FMU status:OK] fmiEnterModelInitializationMode completed
+	[FMU][FMU status:OK] fmiExitModelInitializationMode...
+	[FMU][FMU status:OK] fmiExitModelInitializationMode completed
+	[FMU][FMU status:OK] fmiNewDiscreteStates...
+	[FMU][FMU status:OK] fmiNewDiscreteStates completed
+	[FMU][FMU status:OK] fmiEnterContinuousTimeMode...
+	[FMU][FMU status:OK] fmiEnterContinuousTimeMode done
+	[FMU][FMU status:OK] fmiGetContinuousStates
+	[FMU][FMU status:OK] fmiGetEventIndicators
+[INFO][FMUCHK] Initialized FMU for simulation starting at time 0
+	[FMU][FMU status:OK] fmiGetReal: J1_w = 10
+	[FMU][FMU status:OK] fmiGetReal: J2_w = 0
+	[FMU][FMU status:OK] fmiGetReal: J3_w = 0
+	[FMU][FMU status:OK] fmiGetReal: J4_w = 0
+	[FMU][FMU status:OK] fmiGetDerivatives
+	[FMU][FMU status:OK] fmiSetTime to 0.4
+	[FMU][FMU status:OK] fmiSetContinuousStates
+	[FMU][FMU status:OK] fmiCompletedIntegratorStep
+	[FMU][FMU status:OK] fmiGetEventIndicators
+	[FMU][FMU status:OK] fmiEnterEventMode...
+	[FMU][FMU status:OK] fmiEnterEventMode done
+	[FMU][FMU status:OK] fmiNewDiscreteStates...
+	[FMU][FMU status:OK] fmiNewDiscreteStates completed
+	[FMU][FMU status:OK] fmiNewDiscreteStates...
+	[FMU][FMU status:OK] fmiNewDiscreteStates completed
+	[FMU][FMU status:OK] fmiGetEventIndicators
+	[FMU][FMU status:OK] fmiEnterContinuousTimeMode...
+	[FMU][FMU status:OK] fmiEnterContinuousTimeMode done
+	[FMU][FMU status:OK] fmiGetDerivatives
+	[FMU][FMU status:OK] fmiSetTime to 1.4
+	[FMU][FMU status:OK] fmiSetContinuousStates
+	[FMU][FMU status:OK] fmiCompletedIntegratorStep
+	[FMU][FMU status:OK] fmiGetEventIndicators
+	[FMU][FMU status:OK] fmiEnterEventMode...
+	[FMU][FMU status:OK] fmiEnterEventMode done
+	[FMU][FMU status:OK] fmiNewDiscreteStates...
+	[FMU][FMU status:OK] fmiNewDiscreteStates completed
+	[FMU][FMU status:OK] fmiNewDiscreteStates...
+	[FMU][FMU status:OK] fmiNewDiscreteStates completed
+	[FMU][FMU status:OK] fmiGetEventIndicators
+	[FMU][FMU status:OK] fmiEnterContinuousTimeMode...
+	[FMU][FMU status:OK] fmiEnterContinuousTimeMode done
+	[FMU][FMU status:OK] fmiGetReal: J1_w = -2.7669
+	[FMU][FMU status:OK] fmiGetReal: J2_w = 2.7669
+	[FMU][FMU status:OK] fmiGetReal: J3_w = 10
+	[FMU][FMU status:OK] fmiGetReal: J4_w = 0
+	[FMU][FMU status:OK] fmiGetDerivatives
+	[FMU][FMU status:OK] fmiSetTime to 2.4
+	[FMU][FMU status:OK] fmiSetContinuousStates
+	[FMU][FMU status:OK] fmiCompletedIntegratorStep
+	[FMU][FMU status:OK] fmiGetEventIndicators
+	[FMU][FMU status:OK] fmiGetReal: J1_w = -2.7669
+	[FMU][FMU status:OK] fmiGetReal: J2_w = 2.7669
+	[FMU][FMU status:OK] fmiGetReal: J3_w = 10
+	[FMU][FMU status:OK] fmiGetReal: J4_w = 0
+	[FMU][FMU status:OK] fmiGetDerivatives
+	[FMU][FMU status:OK] fmiSetTime to 3.4
+	[FMU][FMU status:OK] fmiSetContinuousStates
+	[FMU][FMU status:OK] fmiCompletedIntegratorStep
+	[FMU][FMU status:OK] fmiGetEventIndicators
+	[FMU][FMU status:OK] fmiGetReal: J1_w = -2.7669
+	[FMU][FMU status:OK] fmiGetReal: J2_w = 2.7669
+	[FMU][FMU status:OK] fmiGetReal: J3_w = 10
+	[FMU][FMU status:OK] fmiGetReal: J4_w = 0
+	[FMU][FMU status:OK] fmiGetDerivatives
+	[FMU][FMU status:OK] fmiSetTime to 4.4
+	[FMU][FMU status:OK] fmiSetContinuousStates
+	[FMU][FMU status:OK] fmiCompletedIntegratorStep
+	[FMU][FMU status:OK] fmiGetEventIndicators
+	[FMU][FMU status:OK] fmiEnterEventMode...
+	[FMU][FMU status:OK] fmiEnterEventMode done
+	[FMU][FMU status:OK] fmiNewDiscreteStates...
+	[FMU][FMU status:OK] fmiNewDiscreteStates completed
+	[FMU][FMU status:OK] fmiNewDiscreteStates...
+	[FMU][FMU status:OK] fmiNewDiscreteStates completed
+	[FMU][FMU status:OK] fmiGetEventIndicators
+	[FMU][FMU status:OK] fmiEnterContinuousTimeMode...
+	[FMU][FMU status:OK] fmiEnterContinuousTimeMode done
+	[FMU][FMU status:OK] fmiGetReal: J1_w = -2.7669
+	[FMU][FMU status:OK] fmiGetReal: J2_w = 2.7669
+	[FMU][FMU status:OK] fmiGetReal: J3_w = 10
+	[FMU][FMU status:OK] fmiGetReal: J4_w = 0
+	[FMU][FMU status:OK] fmiGetDerivatives
+	[FMU][FMU status:OK] fmiSetTime to 5.4
+	[FMU][FMU status:OK] fmiSetContinuousStates
+	[FMU][FMU status:OK] fmiCompletedIntegratorStep
+	[FMU][FMU status:OK] fmiGetEventIndicators
+	[FMU][FMU status:OK] fmiEnterEventMode...
+	[FMU][FMU status:OK] fmiEnterEventMode done
+	[FMU][FMU status:OK] fmiNewDiscreteStates...
+	[FMU][FMU status:OK] fmiNewDiscreteStates completed
+	[FMU][FMU status:OK] fmiNewDiscreteStates...
+	[FMU][FMU status:OK] fmiNewDiscreteStates completed
+	[FMU][FMU status:OK] fmiGetEventIndicators
+	[FMU][FMU status:OK] fmiEnterContinuousTimeMode...
+	[FMU][FMU status:OK] fmiEnterContinuousTimeMode done
+	[FMU][FMU status:OK] fmiGetReal: J1_w = 4.51733
+	[FMU][FMU status:OK] fmiGetReal: J2_w = -0.875217
+	[FMU][FMU status:OK] fmiGetReal: J3_w = 6.35788
+	[FMU][FMU status:OK] fmiGetReal: J4_w = 0
+	[FMU][FMU status:OK] fmiGetDerivatives
+	[FMU][FMU status:OK] fmiSetTime to 6.4
+	[FMU][FMU status:OK] fmiSetContinuousStates
+	[FMU][FMU status:OK] fmiCompletedIntegratorStep
+	[FMU][FMU status:OK] fmiGetEventIndicators
+	[FMU][FMU status:OK] fmiEnterEventMode...
+	[FMU][FMU status:OK] fmiEnterEventMode done
+	[FMU][FMU status:OK] fmiNewDiscreteStates...
+	[FMU][FMU status:OK] fmiNewDiscreteStates completed
+	[FMU][FMU status:OK] fmiNewDiscreteStates...
+	[FMU][FMU status:OK] fmiNewDiscreteStates completed
+	[FMU][FMU status:OK] fmiNewDiscreteStates...
+	[FMU][FMU status:OK] fmiNewDiscreteStates completed
+	[FMU][FMU status:OK] fmiGetEventIndicators
+	[FMU][FMU status:OK] fmiEnterContinuousTimeMode...
+	[FMU][FMU status:OK] fmiEnterContinuousTimeMode done
+	[FMU][FMU status:OK] fmiGetReal: J1_w = 4.51733
+	[FMU][FMU status:OK] fmiGetReal: J2_w = -0.875217
+	[FMU][FMU status:OK] fmiGetReal: J3_w = 6.35788
+	[FMU][FMU status:OK] fmiGetReal: J4_w = 8.88178e-016
+	[FMU][FMU status:OK] fmiGetDerivatives
+	[FMU][FMU status:OK] fmiSetTime to 7.4
+	[FMU][FMU status:OK] fmiSetContinuousStates
+	[FMU][FMU status:OK] fmiCompletedIntegratorStep
+	[FMU][FMU status:OK] fmiGetEventIndicators
+	[FMU][FMU status:OK] fmiGetReal: J1_w = 4.51733
+	[FMU][FMU status:OK] fmiGetReal: J2_w = -0.875217
+	[FMU][FMU status:OK] fmiGetReal: J3_w = 6.35788
+	[FMU][FMU status:OK] fmiGetReal: J4_w = 8.88178e-016
+	[FMU][FMU status:OK] fmiGetDerivatives
+	[FMU][FMU status:OK] fmiSetTime to 8.4
+	[FMU][FMU status:OK] fmiSetContinuousStates
+	[FMU][FMU status:OK] fmiCompletedIntegratorStep
+	[FMU][FMU status:OK] fmiGetEventIndicators
+	[FMU][FMU status:OK] fmiGetReal: J1_w = 4.51733
+	[FMU][FMU status:OK] fmiGetReal: J2_w = -0.875217
+	[FMU][FMU status:OK] fmiGetReal: J3_w = 6.35788
+	[FMU][FMU status:OK] fmiGetReal: J4_w = 8.88178e-016
+	[FMU][FMU status:OK] fmiGetDerivatives
+	[FMU][FMU status:OK] fmiSetTime to 9.4
+	[FMU][FMU status:OK] fmiSetContinuousStates
+	[FMU][FMU status:OK] fmiCompletedIntegratorStep
+	[FMU][FMU status:OK] fmiGetEventIndicators
+	[FMU][FMU status:OK] fmiEnterEventMode...
+	[FMU][FMU status:OK] fmiEnterEventMode done
+	[FMU][FMU status:OK] fmiNewDiscreteStates...
+	[FMU][FMU status:OK] fmiNewDiscreteStates completed
+	[FMU][FMU status:OK] fmiNewDiscreteStates...
+	[FMU][FMU status:OK] fmiNewDiscreteStates completed
+	[FMU][FMU status:OK] fmiGetEventIndicators
+	[FMU][FMU status:OK] fmiEnterContinuousTimeMode...
+	[FMU][FMU status:OK] fmiEnterContinuousTimeMode done
+	[FMU][FMU status:OK] fmiGetReal: J1_w = 4.51733
+	[FMU][FMU status:OK] fmiGetReal: J2_w = -0.875217
+	[FMU][FMU status:OK] fmiGetReal: J3_w = 6.35788
+	[FMU][FMU status:OK] fmiGetReal: J4_w = 8.88178e-016
+	[FMU][FMU status:OK] fmiGetDerivatives
+	[FMU][FMU status:OK] fmiSetTime to 10.4
+	[FMU][FMU status:OK] fmiSetContinuousStates
+	[FMU][FMU status:OK] fmiCompletedIntegratorStep
+	[FMU][FMU status:OK] fmiGetEventIndicators
+	[FMU][FMU status:OK] fmiEnterEventMode...
+	[FMU][FMU status:OK] fmiEnterEventMode done
+	[FMU][FMU status:OK] fmiNewDiscreteStates...
+	[FMU][FMU status:OK] fmiNewDiscreteStates completed
+	[FMU][FMU status:OK] fmiNewDiscreteStates...
+	[FMU][FMU status:OK] fmiNewDiscreteStates completed
+	[FMU][FMU status:OK] fmiNewDiscreteStates...
+	[FMU][FMU status:OK] fmiNewDiscreteStates completed
+	[FMU][FMU status:OK] fmiGetEventIndicators
+	[FMU][FMU status:OK] fmiEnterContinuousTimeMode...
+	[FMU][FMU status:OK] fmiEnterContinuousTimeMode done
+	[FMU][FMU status:OK] fmiGetReal: J1_w = -2.7669
+	[FMU][FMU status:OK] fmiGetReal: J2_w = 2.7669
+	[FMU][FMU status:OK] fmiGetReal: J3_w = 10
+	[FMU][FMU status:OK] fmiGetReal: J4_w = 0
+	[FMU][FMU status:OK] fmiGetDerivatives
+	[FMU][FMU status:OK] fmiSetTime to 11.4
+	[FMU][FMU status:OK] fmiSetContinuousStates
+	[FMU][FMU status:OK] fmiCompletedIntegratorStep
+	[FMU][FMU status:OK] fmiGetEventIndicators
+	[FMU][FMU status:OK] fmiEnterEventMode...
+	[FMU][FMU status:OK] fmiEnterEventMode done
+	[FMU][FMU status:OK] fmiNewDiscreteStates...
+	[FMU][FMU status:OK] fmiNewDiscreteStates completed
+	[FMU][FMU status:OK] fmiNewDiscreteStates...
+	[FMU][FMU status:OK] fmiNewDiscreteStates completed
+	[FMU][FMU status:OK] fmiNewDiscreteStates...
+	[FMU][FMU status:OK] fmiNewDiscreteStates completed
+	[FMU][FMU status:OK] fmiGetEventIndicators
+	[FMU][FMU status:OK] fmiEnterContinuousTimeMode...
+	[FMU][FMU status:OK] fmiEnterContinuousTimeMode done
+	[FMU][FMU status:OK] fmiGetReal: J1_w = -2.7669
+	[FMU][FMU status:OK] fmiGetReal: J2_w = 2.7669
+	[FMU][FMU status:OK] fmiGetReal: J3_w = 10
+	[FMU][FMU status:OK] fmiGetReal: J4_w = 1.77636e-015
+	[FMU][FMU status:OK] fmiGetDerivatives
+	[FMU][FMU status:OK] fmiSetTime to 12.4
+	[FMU][FMU status:OK] fmiSetContinuousStates
+	[FMU][FMU status:OK] fmiCompletedIntegratorStep
+	[FMU][FMU status:OK] fmiGetEventIndicators
+	[FMU][FMU status:OK] fmiGetReal: J1_w = -2.7669
+	[FMU][FMU status:OK] fmiGetReal: J2_w = 2.7669
+	[FMU][FMU status:OK] fmiGetReal: J3_w = 10
+	[FMU][FMU status:OK] fmiGetReal: J4_w = 1.77636e-015
+	[FMU][FMU status:OK] fmiGetDerivatives
+	[FMU][FMU status:OK] fmiSetTime to 13.4
+	[FMU][FMU status:OK] fmiSetContinuousStates
+	[FMU][FMU status:OK] fmiCompletedIntegratorStep
+	[FMU][FMU status:OK] fmiGetEventIndicators
+	[FMU][FMU status:OK] fmiGetReal: J1_w = -2.7669
+	[FMU][FMU status:OK] fmiGetReal: J2_w = 2.7669
+	[FMU][FMU status:OK] fmiGetReal: J3_w = 10
+	[FMU][FMU status:OK] fmiGetReal: J4_w = 1.77636e-015
+	[FMU][FMU status:OK] fmiGetDerivatives
+	[FMU][FMU status:OK] fmiSetTime to 14.4
+	[FMU][FMU status:OK] fmiSetContinuousStates
+	[FMU][FMU status:OK] fmiCompletedIntegratorStep
+	[FMU][FMU status:OK] fmiGetEventIndicators
+	[FMU][FMU status:OK] fmiEnterEventMode...
+	[FMU][FMU status:OK] fmiEnterEventMode done
+	[FMU][FMU status:OK] fmiNewDiscreteStates...
+	[FMU][FMU status:OK] fmiNewDiscreteStates completed
+	[FMU][FMU status:OK] fmiNewDiscreteStates...
+	[FMU][FMU status:OK] fmiNewDiscreteStates completed
+	[FMU][FMU status:OK] fmiGetEventIndicators
+	[FMU][FMU status:OK] fmiEnterContinuousTimeMode...
+	[FMU][FMU status:OK] fmiEnterContinuousTimeMode done
+	[FMU][FMU status:OK] fmiGetReal: J1_w = -2.7669
+	[FMU][FMU status:OK] fmiGetReal: J2_w = 2.7669
+	[FMU][FMU status:OK] fmiGetReal: J3_w = 10
+	[FMU][FMU status:OK] fmiGetReal: J4_w = 1.77636e-015
+	[FMU][FMU status:OK] fmiGetDerivatives
+	[FMU][FMU status:OK] fmiSetTime to 15.4
+	[FMU][FMU status:OK] fmiSetContinuousStates
+	[FMU][FMU status:OK] fmiCompletedIntegratorStep
+	[FMU][FMU status:OK] fmiGetEventIndicators
+	[FMU][FMU status:OK] fmiEnterEventMode...
+	[FMU][FMU status:OK] fmiEnterEventMode done
+	[FMU][FMU status:OK] fmiNewDiscreteStates...
+	[FMU][FMU status:OK] fmiNewDiscreteStates completed
+	[FMU][FMU status:OK] fmiNewDiscreteStates...
+	[FMU][FMU status:OK] fmiNewDiscreteStates completed
+	[FMU][FMU status:OK] fmiNewDiscreteStates...
+	[FMU][FMU status:OK] fmiNewDiscreteStates completed
+	[FMU][FMU status:OK] fmiGetEventIndicators
+	[FMU][FMU status:OK] fmiEnterContinuousTimeMode...
+	[FMU][FMU status:OK] fmiEnterContinuousTimeMode done
+	[FMU][FMU status:OK] fmiGetReal: J1_w = 4.51733
+	[FMU][FMU status:OK] fmiGetReal: J2_w = -0.875217
+	[FMU][FMU status:OK] fmiGetReal: J3_w = 6.35788
+	[FMU][FMU status:OK] fmiGetReal: J4_w = 0
+	[FMU][FMU status:OK] fmiGetDerivatives
+	[FMU][FMU status:OK] fmiSetTime to 16.4
+	[FMU][FMU status:OK] fmiSetContinuousStates
+	[FMU][FMU status:OK] fmiCompletedIntegratorStep
+	[FMU][FMU status:OK] fmiGetEventIndicators
+	[FMU][FMU status:OK] fmiEnterEventMode...
+	[FMU][FMU status:OK] fmiEnterEventMode done
+	[FMU][FMU status:OK] fmiNewDiscreteStates...
+	[FMU][FMU status:OK] fmiNewDiscreteStates completed
+	[FMU][FMU status:OK] fmiNewDiscreteStates...
+	[FMU][FMU status:OK] fmiNewDiscreteStates completed
+	[FMU][FMU status:OK] fmiNewDiscreteStates...
+	[FMU][FMU status:OK] fmiNewDiscreteStates completed
+	[FMU][FMU status:OK] fmiGetEventIndicators
+	[FMU][FMU status:OK] fmiEnterContinuousTimeMode...
+	[FMU][FMU status:OK] fmiEnterContinuousTimeMode done
+	[FMU][FMU status:OK] fmiGetReal: J1_w = 4.51733
+	[FMU][FMU status:OK] fmiGetReal: J2_w = -0.875217
+	[FMU][FMU status:OK] fmiGetReal: J3_w = 6.35788
+	[FMU][FMU status:OK] fmiGetReal: J4_w = 0
+	[FMU][FMU status:OK] fmiGetDerivatives
+	[FMU][FMU status:OK] fmiSetTime to 17.4
+	[FMU][FMU status:OK] fmiSetContinuousStates
+	[FMU][FMU status:OK] fmiCompletedIntegratorStep
+	[FMU][FMU status:OK] fmiGetEventIndicators
+	[FMU][FMU status:OK] fmiGetReal: J1_w = 4.51733
+	[FMU][FMU status:OK] fmiGetReal: J2_w = -0.875217
+	[FMU][FMU status:OK] fmiGetReal: J3_w = 6.35788
+	[FMU][FMU status:OK] fmiGetReal: J4_w = 0
+	[FMU][FMU status:OK] fmiGetDerivatives
+	[FMU][FMU status:OK] fmiSetTime to 18.4
+	[FMU][FMU status:OK] fmiSetContinuousStates
+	[FMU][FMU status:OK] fmiCompletedIntegratorStep
+	[FMU][FMU status:OK] fmiGetEventIndicators
+	[FMU][FMU status:OK] fmiGetReal: J1_w = 4.51733
+	[FMU][FMU status:OK] fmiGetReal: J2_w = -0.875217
+	[FMU][FMU status:OK] fmiGetReal: J3_w = 6.35788
+	[FMU][FMU status:OK] fmiGetReal: J4_w = 0
+	[FMU][FMU status:OK] fmiGetDerivatives
+	[FMU][FMU status:OK] fmiSetTime to 19.4
+	[FMU][FMU status:OK] fmiSetContinuousStates
+	[FMU][FMU status:OK] fmiCompletedIntegratorStep
+	[FMU][FMU status:OK] fmiGetEventIndicators
+	[FMU][FMU status:OK] fmiEnterEventMode...
+	[FMU][FMU status:OK] fmiEnterEventMode done
+	[FMU][FMU status:OK] fmiNewDiscreteStates...
+	[FMU][FMU status:OK] fmiNewDiscreteStates completed
+	[FMU][FMU status:OK] fmiNewDiscreteStates...
+	[FMU][FMU status:OK] fmiNewDiscreteStates completed
+	[FMU][FMU status:OK] fmiGetEventIndicators
+	[FMU][FMU status:OK] fmiEnterContinuousTimeMode...
+	[FMU][FMU status:OK] fmiEnterContinuousTimeMode done
+	[FMU][FMU status:OK] fmiGetReal: J1_w = 4.51733
+	[FMU][FMU status:OK] fmiGetReal: J2_w = -0.875217
+	[FMU][FMU status:OK] fmiGetReal: J3_w = 6.35788
+	[FMU][FMU status:OK] fmiGetReal: J4_w = 0
+	[FMU][FMU status:OK] fmiGetDerivatives
+	[FMU][FMU status:OK] fmiSetTime to 20.4
+	[FMU][FMU status:OK] fmiSetContinuousStates
+	[FMU][FMU status:OK] fmiCompletedIntegratorStep
+	[FMU][FMU status:OK] fmiGetEventIndicators
+	[FMU][FMU status:OK] fmiEnterEventMode...
+	[FMU][FMU status:OK] fmiEnterEventMode done
+	[FMU][FMU status:OK] fmiNewDiscreteStates...
+	[FMU][FMU status:OK] fmiNewDiscreteStates completed
+	[FMU][FMU status:OK] fmiNewDiscreteStates...
+	[FMU][FMU status:OK] fmiNewDiscreteStates completed
+	[FMU][FMU status:OK] fmiNewDiscreteStates...
+	[FMU][FMU status:OK] fmiNewDiscreteStates completed
+	[FMU][FMU status:OK] fmiGetEventIndicators
+	[FMU][FMU status:OK] fmiEnterContinuousTimeMode...
+	[FMU][FMU status:OK] fmiEnterContinuousTimeMode done
+	[FMU][FMU status:OK] fmiGetReal: J1_w = -2.7669
+	[FMU][FMU status:OK] fmiGetReal: J2_w = 2.7669
+	[FMU][FMU status:OK] fmiGetReal: J3_w = 10
+	[FMU][FMU status:OK] fmiGetReal: J4_w = 0
+	[FMU][FMU status:OK] fmiGetDerivatives
+	[FMU][FMU status:OK] fmiSetTime to 21.4
+	[FMU][FMU status:OK] fmiSetContinuousStates
+	[FMU][FMU status:OK] fmiCompletedIntegratorStep
+	[FMU][FMU status:OK] fmiGetEventIndicators
+	[FMU][FMU status:OK] fmiEnterEventMode...
+	[FMU][FMU status:OK] fmiEnterEventMode done
+	[FMU][FMU status:OK] fmiNewDiscreteStates...
+	[FMU][FMU status:OK] fmiNewDiscreteStates completed
+	[FMU][FMU status:OK] fmiNewDiscreteStates...
+	[FMU][FMU status:OK] fmiNewDiscreteStates completed
+	[FMU][FMU status:OK] fmiNewDiscreteStates...
+	[FMU][FMU status:OK] fmiNewDiscreteStates completed
+	[FMU][FMU status:OK] fmiGetEventIndicators
+	[FMU][FMU status:OK] fmiEnterContinuousTimeMode...
+	[FMU][FMU status:OK] fmiEnterContinuousTimeMode done
+	[FMU][FMU status:OK] fmiGetReal: J1_w = -2.7669
+	[FMU][FMU status:OK] fmiGetReal: J2_w = 2.7669
+	[FMU][FMU status:OK] fmiGetReal: J3_w = 10
+	[FMU][FMU status:OK] fmiGetReal: J4_w = 0
+	[FMU][FMU status:OK] fmiGetDerivatives
+	[FMU][FMU status:OK] fmiSetTime to 22.4
+	[FMU][FMU status:OK] fmiSetContinuousStates
+	[FMU][FMU status:OK] fmiCompletedIntegratorStep
+	[FMU][FMU status:OK] fmiGetEventIndicators
+	[FMU][FMU status:OK] fmiGetReal: J1_w = -2.7669
+	[FMU][FMU status:OK] fmiGetReal: J2_w = 2.7669
+	[FMU][FMU status:OK] fmiGetReal: J3_w = 10
+	[FMU][FMU status:OK] fmiGetReal: J4_w = 0
+	[FMU][FMU status:OK] fmiGetDerivatives
+	[FMU][FMU status:OK] fmiSetTime to 23.4
+	[FMU][FMU status:OK] fmiSetContinuousStates
+	[FMU][FMU status:OK] fmiCompletedIntegratorStep
+	[FMU][FMU status:OK] fmiGetEventIndicators
+	[FMU][FMU status:OK] fmiGetReal: J1_w = -2.7669
+	[FMU][FMU status:OK] fmiGetReal: J2_w = 2.7669
+	[FMU][FMU status:OK] fmiGetReal: J3_w = 10
+	[FMU][FMU status:OK] fmiGetReal: J4_w = 0
+	[FMU][FMU status:OK] fmiGetDerivatives
+	[FMU][FMU status:OK] fmiSetTime to 24.4
+	[FMU][FMU status:OK] fmiSetContinuousStates
+	[FMU][FMU status:OK] fmiCompletedIntegratorStep
+	[FMU][FMU status:OK] fmiGetEventIndicators
+	[FMU][FMU status:OK] fmiEnterEventMode...
+	[FMU][FMU status:OK] fmiEnterEventMode done
+	[FMU][FMU status:OK] fmiNewDiscreteStates...
+	[FMU][FMU status:OK] fmiNewDiscreteStates completed
+	[FMU][FMU status:OK] fmiNewDiscreteStates...
+	[FMU][FMU status:OK] fmiNewDiscreteStates completed
+	[FMU][FMU status:OK] fmiGetEventIndicators
+	[FMU][FMU status:OK] fmiEnterContinuousTimeMode...
+	[FMU][FMU status:OK] fmiEnterContinuousTimeMode done
+	[FMU][FMU status:OK] fmiGetReal: J1_w = -2.7669
+	[FMU][FMU status:OK] fmiGetReal: J2_w = 2.7669
+	[FMU][FMU status:OK] fmiGetReal: J3_w = 10
+	[FMU][FMU status:OK] fmiGetReal: J4_w = 0
+	[FMU][FMU status:OK] fmiGetDerivatives
+	[FMU][FMU status:OK] fmiSetTime to 25
+	[FMU][FMU status:OK] fmiSetContinuousStates
+	[FMU][FMU status:OK] fmiCompletedIntegratorStep
+	[FMU][FMU status:OK] fmiGetEventIndicators
+	[FMU][FMU status:OK] fmiEnterEventMode...
+	[FMU][FMU status:OK] fmiEnterEventMode done
+	[FMU][FMU status:OK] fmiNewDiscreteStates...
+	[FMU][FMU status:OK] fmiNewDiscreteStates completed
+	[FMU][FMU status:OK] fmiNewDiscreteStates...
+	[FMU][FMU status:OK] fmiNewDiscreteStates completed
+	[FMU][FMU status:OK] fmiNewDiscreteStates...
+	[FMU][FMU status:OK] fmiNewDiscreteStates completed
+	[FMU][FMU status:OK] fmiGetEventIndicators
+	[FMU][FMU status:OK] fmiEnterContinuousTimeMode...
+	[FMU][FMU status:OK] fmiEnterContinuousTimeMode done
+	[FMU][FMU status:OK] fmiGetReal: J1_w = 1.60364
+	[FMU][FMU status:OK] fmiGetReal: J2_w = 0.581629
+	[FMU][FMU status:OK] fmiGetReal: J3_w = 7.81473
+	[FMU][FMU status:OK] fmiGetReal: J4_w = 0
+[INFO][FMUCHK] Simulation finished successfully at time 25
+	[FMU][FMU status:OK] fmiTerminateModel
+	[FMU][FMU status:OK] fmiFreeModelInstance
+FMU check summary:
+FMU reported:
+	0 warning(s) and error(s)
+Checker reported:
+	0 Warning(s)
+	0 Error(s)

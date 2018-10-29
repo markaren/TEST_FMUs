@@ -1,0 +1,2 @@
+set FMUName=CoupledClutches
+fmuCheck.win32.exe -e %FMUName%_cc.log -o %FMUName%_cc.csv -s 1.500000 -h 0.010000 -i C:\FMICrossChecking\export\scripts\..\models\CoupledClutches_in.csv -f -c , %FMUName%.fmu

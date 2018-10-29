@@ -1,0 +1,40 @@
+[INFO][FMUCHK] FMI compliance checker rev215 [FMILibrary: 2.0.2] build date: Sep 30 2016
+[INFO][FMUCHK] Called with following options:
+[INFO][FMUCHK] Z:/maple2017_3/2017-10-04/1267140\toolbox_source\FMIConnector\bin.IBM_INTEL_NT\FMUChecker-2.0.3\fmuCheck.win32.exe -i Z:/maple2017_3/2017-10-04/1267140\toolbox_source\FMIConnector\maple\tst\data\CoupledClutches_in.csv -e Z:/maple2017_3/2017-10-04/1267140\toolbox_source\FMIConnector\maple\tst\temp\rdwiorc2.maplesoft.com\CoupledClutches_ME_cc.log -o Z:/maple2017_3/2017-10-04/1267140\toolbox_source\FMIConnector\maple\tst\temp\rdwiorc2.maplesoft.com\CoupledClutches_ME_cc.csv -n 151 -s 1.5 -h 1e-2 -t C:/temp/tester5/tester.20780/CWdoTWej/ C:/temp/tester5/tester.20780/CWdoTWej/\CoupledClutches.fmu
+[INFO][FMUCHK] Will process FMU C:/temp/tester5/tester.20780/CWdoTWej/\CoupledClutches.fmu
+[INFO][FMILIB] XML specifies FMI standard version 2.0
+[INFO][FMUCHK] Model name: CoupledClutches
+[INFO][FMUCHK] Model GUID: {1ffa00da-ab9d-b2e7-46f2-23fecf61a181}
+[INFO][FMUCHK] Model version: 
+[INFO][FMUCHK] FMU kind: ModelExchange
+[INFO][FMUCHK] The FMU contains:
+0 constants
+4 parameters
+38 discrete variables
+136 continuous variables
+1 inputs
+4 outputs
+169 local variables
+0 independent variables
+0 calculated parameters
+177 real variables
+0 integer variables
+0 enumeration variables
+0 boolean variables
+1 string variables
+
+[INFO][FMUCHK] Printing output file header
+[INFO][FMUCHK] Opening input file Z:/maple2017_3/2017-10-04/1267140\toolbox_source\FMIConnector\maple\tst\data\CoupledClutches_in.csv
+[INFO][FMUCHK] Detected separator character in input file: ,
+[INFO][FMUCHK] Model identifier for ModelExchange: CoupledClutches
+[INFO][FMILIB] Loading 'win32' binary with 'default' platform types
+[INFO][FMUCHK] Version returned from ME FMU: '2.0'
+
+[INFO][FMUCHK] Initialized FMU for simulation starting at time 0
+[INFO][FMUCHK] Simulation finished successfully at time 1.5
+FMU check summary:
+FMU reported:
+	0 warning(s) and error(s)
+Checker reported:
+	0 Warning(s)
+	0 Error(s)
